@@ -363,6 +363,100 @@ body {
   color: #fff;
 }
 
+.re-edit-section {
+  padding: 16px 20px;
+  background-color: #31343B;
+  border-top: 1px solid #474950;
+}
+
+.re-edit-section .input-set {
+  padding-left: 24px;
+  background: url(../images/icon_re.png) no-repeat left center;
+}
+
+.re-edit-section .input-set input {
+  background-color: #363940;
+  border-color: #474950;
+}
+
+.re-edit-section .input-set input + input {
+  margin-left: 10px;
+}
+
+.re-edit-section .textarea-wrap {
+  margin-top: 10px;
+  padding: 0 0 0 24px;
+}
+
+.re-edit-section .textarea-wrap textarea {
+  background-color: #363940;
+  border: 1px solid #474950;
+}
+
+.re-edit-section .btn-group {
+  margin-top: 16px;
+  padding: 0;
+}
+
+.re-edit-section .btn-group .btn {
+  border-color: #FA6980;
+  color: #FA6980;
+}
+
+.re-edit-section .btn-group .btn.active {
+  color: #fff;
+  background-color: #FA6980;
+}
+
+.edit-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 14px 20px;
+  border-bottom: 1px solid #474950;
+}
+
+.edit-section .input-set {
+  width: 50%;
+}
+
+.edit-section .input-set input {
+  margin-bottom: 5px;
+}
+
+.edit-section .input-set .noti {
+  margin-left: 0;
+}
+
+.input-set input {
+  width: 100%;
+  max-width: 280px;
+  height: 36px;
+  padding: 0 10px;
+  font-size: 14px;
+  color: #fff;
+  border: 1px solid #2f3035;
+  border-radius: 5px;
+  background-color: #31343B;
+  text-align: left;
+}
+
+.input-set input::-webkit-input-placeholder {
+  color: #727479;
+}
+
+.input-set input:-ms-input-placeholder {
+  color: #727479;
+}
+
+.input-set input::-ms-input-placeholder {
+  color: #727479;
+}
+
+.input-set input::placeholder {
+  color: #727479;
+}
+
 .btn-group {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -392,6 +486,11 @@ body {
 
 .btn-group .btn.btn {
   margin-left: 4px;
+}
+
+.btn-group .btn.big {
+  width: 140px;
+  padding: 10px 0;
 }
 
 .board-wrap {
@@ -696,6 +795,56 @@ body {
   text-align: left;
 }
 
+.textarea-wrap {
+  padding: 14px 20px;
+}
+
+.textarea-wrap textarea {
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  background-color: #31343B;
+  border: none;
+  font-size: 14px;
+  line-height: 18px;
+  color: #fff;
+}
+
+.textarea-wrap .noti {
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 0;
+}
+
+.noti {
+  position: relative;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  padding-left: 20px;
+  margin-left: 12px;
+  font-size: 12px;
+  line-height: 14px;
+  color: #1BECEF;
+  width: 160px;
+}
+
+.noti::after {
+  display: block;
+  content: "!";
+  position: absolute;
+  left: 0;
+  top: 1px;
+  width: 12px;
+  height: 12px;
+  font-size: 10px;
+  line-height: 10px;
+  text-align: center;
+  border: 1px solid #1BECEF;
+  border-radius: 50px;
+}
+
 .write-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -713,6 +862,9 @@ body {
   line-height: 36px;
   color: #fff;
   opacity: .8;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
 }
 
 .write-list dd {
@@ -730,58 +882,40 @@ body {
   float: left;
 }
 
-.write-list .noti {
-  position: relative;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 auto;
-          flex: 0 0 auto;
-  padding-left: 20px;
-  margin-left: 12px;
+.write-list .code {
+  margin-left: 10px;
   font-size: 12px;
   line-height: 14px;
-  color: #1BECEF;
-}
-
-.write-list .noti::after {
-  display: block;
-  content: "!";
-  position: absolute;
-  left: 0;
-  top: 2px;
-  width: 12px;
-  height: 12px;
-  font-size: 12px;
-  line-height: 12px;
-  text-align: center;
-  border: 1px solid #1BECEF;
-  border-radius: 50px;
+  color: #727479;
 }
 
 .write-list input {
   width: 100%;
-  max-width: 300px;
+  max-width: 280px;
   height: 36px;
   padding: 0 20px;
   font-size: 14px;
   color: #fff;
-  border: 1px solid #474950;
+  border: 1px solid #2f3035;
   border-radius: 5px;
+  background-color: #31343B;
+  text-align: left;
 }
 
 .write-list input::-webkit-input-placeholder {
-  color: #31343B;
+  color: #727479;
 }
 
 .write-list input:-ms-input-placeholder {
-  color: #31343B;
+  color: #727479;
 }
 
 .write-list input::-ms-input-placeholder {
-  color: #31343B;
+  color: #727479;
 }
 
 .write-list input::placeholder {
-  color: #31343B;
+  color: #727479;
 }
 
 @media screen and (max-width: 1020px) {
@@ -797,6 +931,29 @@ body {
   .contents {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+  }
+  .re-edit-section .input-set {
+    background-position: top 10px left;
+  }
+  .re-edit-section .input-set input {
+    max-width: 100%;
+  }
+  .re-edit-section .input-set input + input {
+    margin-top: 10px;
+    margin-left: 0;
+  }
+  .edit-section {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .edit-section .input-set {
+    width: 100%;
+  }
+  .edit-section .input-set input {
+    max-width: 100%;
+  }
+  .edit-section .noti {
+    margin: 10px 0;
   }
   .thread-code {
     width: 100%;
@@ -819,6 +976,10 @@ body {
   .footer {
     padding-top: 30px;
   }
+  .write-list.col2 {
+    width: 100%;
+    float: none;
+  }
 }
 
 @media screen and (max-width: 640px) {
@@ -835,6 +996,23 @@ body {
   .wrapper .logo a {
     font-size: 36px;
     line-height: 38px;
+  }
+  .write-list {
+    padding: 12px;
+  }
+  .write-list input {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+  .write-list dt {
+    width: 66px;
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .write-list dd {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
   .board-view {
     padding: 20px;
@@ -886,8 +1064,18 @@ body {
     margin-left: 10px;
     font-size: 12px;
   }
+  .board-wrap .btn-group {
+    padding-right: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
   .board-wrap .info .write {
     max-width: 100px;
+  }
+  .board-wrap .list li .top {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
   .board-wrap .list li .top span {
     font-size: 12px;

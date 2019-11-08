@@ -249,6 +249,12 @@ body {
         button {
             width: 100%;
         }
+        input {
+            font-size: 20px;
+            line-height: 22px;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
     }
     .board-view {
         width: 100%;
@@ -270,8 +276,8 @@ body {
             padding-top: 30px;
             margin-bottom: 30px;
             a {
-                font-size: 40px;
-                line-height: 42px;
+                font-size: 36px;
+                line-height: 38px;
             }
         }
     }

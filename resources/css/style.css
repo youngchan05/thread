@@ -299,6 +299,12 @@ body {
   .thread-code button {
     width: 100%;
   }
+  .thread-code input {
+    font-size: 20px;
+    line-height: 22px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
   .board-view {
     width: 100%;
     margin-left: 0;
@@ -321,8 +327,8 @@ body {
     margin-bottom: 30px;
   }
   .wrapper .logo a {
-    font-size: 40px;
-    line-height: 42px;
+    font-size: 36px;
+    line-height: 38px;
   }
   .board-view {
     padding: 20px;

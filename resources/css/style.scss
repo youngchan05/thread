@@ -13,8 +13,12 @@ body {
     flex-direction: column;
 }
 
-.wrapper {
+.mCSB_container {
     min-height: 100%;
+}
+
+.wrapper {
+    min-height: 100vh;
     background: url(../images/bg_main.png) no-repeat center;
     background-size: cover;
     padding: 100px 30px 40px 30px;
@@ -27,6 +31,10 @@ body {
             line-height: 82px;
             color: #2FC7C9;
             font-weight: 900;
+            img {
+                width: 100%;
+                max-width: 647px;
+            }
         }
     }
     .copy {
